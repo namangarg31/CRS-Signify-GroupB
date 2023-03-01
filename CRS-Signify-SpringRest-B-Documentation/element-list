@@ -1,0 +1,8 @@
+com.signify.application
+com.signify.bean
+com.signify.dao
+com.signify.demo
+com.signify.exception
+com.signify.restcontroller
+com.signify.service
+com.signify.utils
