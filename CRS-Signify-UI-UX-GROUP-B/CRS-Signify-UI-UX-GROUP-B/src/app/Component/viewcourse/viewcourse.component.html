@@ -1,0 +1,20 @@
+<h1 class="heading">View Course Page</h1>
+<button type="submit" class="btn" (click)="view_course()">Click here to view Courses</button>
+
+<div id="listedElements">
+    <ol>
+
+       <li *ngFor='let cust of results'>
+
+          <h6>Course ID:{{cust.courseId }}</h6>
+          <h6>Course Name:{{cust.courseName}}</h6>
+          <h6>Course Count:{{cust.studentCount}}</h6>
+         
+
+          
+ 
+
+       </li>
+ 
+    </ol>
+  </div>

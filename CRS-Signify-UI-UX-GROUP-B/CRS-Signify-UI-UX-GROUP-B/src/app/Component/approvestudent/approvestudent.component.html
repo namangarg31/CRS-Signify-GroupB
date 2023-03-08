@@ -1,0 +1,17 @@
+
+<h1 class="heading">Approve Student here</h1>
+<div class="mx-auto col-10 col-md-8 col-lg-6">
+    <!--String name,String pass,String depart,String des-->
+<form ngForm>
+    <div class="form-group">
+      <label for="name">Id:</label>
+      <input type="number" class="form-control" id="name"
+              [(ngModel)]="model.id" name="id" required="true" placeholder="Enter Id">
+    </div>
+
+    <div class="vertical-center">
+        <button type="submit" class="btn" (click)="approve_student()">Submit</button>
+    </div>
+
+</form>
+</div>

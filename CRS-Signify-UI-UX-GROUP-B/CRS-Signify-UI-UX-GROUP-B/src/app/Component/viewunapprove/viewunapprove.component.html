@@ -1,0 +1,20 @@
+<h1 class="heading">View Unapprove Page</h1>
+<button type="submit" class="btn" (click)="view_unapprove()">Click here to view Unapproved Students</button>
+
+<div id="listedElements">
+    <ol>
+
+       <li *ngFor='let cust of results'>
+
+          <h6>User ID:{{cust.userId }}</h6>
+          <h6>User Name:{{cust.name}}</h6>
+          
+         
+
+          
+ 
+
+       </li>
+ 
+    </ol>
+  </div>

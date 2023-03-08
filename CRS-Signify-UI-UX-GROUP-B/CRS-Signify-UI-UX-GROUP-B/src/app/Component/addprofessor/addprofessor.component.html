@@ -1,0 +1,32 @@
+<h1 class="heading">Add professor here</h1>
+<div class="mx-auto col-10 col-md-8 col-lg-6">
+    <!--String name,String pass,String depart,String des-->
+<form ngForm>
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" class="form-control" id="name"
+              [(ngModel)]="model.name" name="id" required="true" placeholder="Enter Professor Name">
+    </div>
+    
+    <div class="form-group">
+      <label for="age">Password:</label>
+      <input type="text"  class="form-control" id="password"
+      [(ngModel)]="model.password" name="password" required="true" placeholder="Enter Password">
+    </div>
+    <div class="form-group">
+        <label for="age">Department:</label>
+        <input type="text"  class="form-control" id="role"
+        [(ngModel)]="model.depart" name="department" required="true" placeholder="Enter department">
+    </div>
+    <div class="form-group">
+        <label for="age">Designation</label>
+        <input type="text"  class="form-control" id="role"
+        [(ngModel)]="model.des" name="department" required="true" placeholder="Enter department">
+    </div>
+
+    <div class="vertical-center">
+        <button type="submit" class="btn" (click)="add_professor()">Submit</button>
+    </div>
+
+</form>
+</div>

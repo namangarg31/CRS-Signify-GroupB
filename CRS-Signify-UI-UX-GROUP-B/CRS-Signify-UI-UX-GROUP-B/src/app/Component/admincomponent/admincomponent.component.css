@@ -1,0 +1,17 @@
+.heading {
+    margin: auto;
+    width: 50%;
+    /*border: 3px solid green;*/
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(32, 23, 64);
+    color: white;
+  }
+
+.features{
+    margin: auto;
+    width: 50%;
+    /*border: 3px solid green;*/
+    padding: 10px;
+    text-align: center;
+}

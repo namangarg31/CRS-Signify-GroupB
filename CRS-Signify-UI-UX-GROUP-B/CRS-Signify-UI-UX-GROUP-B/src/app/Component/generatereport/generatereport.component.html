@@ -1,0 +1,36 @@
+
+<h1 class="heading">Generate Report card</h1>
+<div class="mx-auto col-10 col-md-8 col-lg-6">
+    <!--String name,String pass,String depart,String des-->
+<form ngForm>
+    <div class="form-group">
+      <label for="name">studid:</label>
+      <input type="number" class="form-control" id="name"
+              [(ngModel)]="model.id" name="id" required="true" placeholder="Enter Id">
+    </div>
+
+    <div class="vertical-center">
+        <button type="submit" class="btn" (click)="generate_report()">Submit</button>
+    </div>
+
+</form>
+
+<div id="listedElements">
+    <ol>
+
+       <li *ngFor='let cust of results'>
+
+          <h6>Course ID:{{cust.courseID }}</h6>
+          <h6>Course Name:{{cust.courseName}}</h6>
+          <h6>Grade:{{cust.grade}}</h6>
+         
+
+          
+ 
+
+       </li>
+ 
+    </ol>
+  </div>
+
+</div>

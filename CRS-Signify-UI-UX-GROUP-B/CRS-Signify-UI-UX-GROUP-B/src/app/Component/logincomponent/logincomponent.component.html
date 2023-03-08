@@ -1,0 +1,27 @@
+<h1 class="heading">Welcome to CRS Application</h1>
+<h2 class="heading">Login here</h2>
+<div class="mx-auto col-10 col-md-8 col-lg-6">
+<form ngForm>
+    <div class="form-group">
+      <label for="name">UserID:</label>
+      <input type="number" class="form-control" id="name"
+              [(ngModel)]="model.id" name="id" required="true" placeholder="Enter Id">
+    </div>
+    
+    <div class="form-group">
+      <label for="age">Password:</label>
+      <input type="text"  class="form-control" id="password"
+      [(ngModel)]="model.password" name="password" required="true" placeholder="Enter Password">
+    </div>
+    <div class="form-group">
+        <label for="age">Role:</label>
+        <input type="text"  class="form-control" id="role"
+        [(ngModel)]="model.role" name="role" required="true" placeholder="Enter role">
+    </div>
+
+    <div class="vertical-center">
+        <button type="submit" class="btn" (click)="login_call()">Submit</button>
+    </div>
+
+</form>
+</div>

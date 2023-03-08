@@ -1,0 +1,18 @@
+
+<h1 class="heading">Remove Course Page</h1>
+
+<div class="mx-auto col-10 col-md-8 col-lg-6">
+<form ngForm>
+    <div class="form-group">
+      <label for="name">Enter course name to remove:</label>
+      <input type="text" class="form-control" id="name"
+              [(ngModel)]="model.coursename" name="id" required="true" placeholder="Enter Course Name">
+    </div>
+    <div class="vertical-center">
+        <button type="submit" class="btn" (click)="remove_course()">Submit</button>
+    </div>
+    
+    
+
+</form>
+</div>

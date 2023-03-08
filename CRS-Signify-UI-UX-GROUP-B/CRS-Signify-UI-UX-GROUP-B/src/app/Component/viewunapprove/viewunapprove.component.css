@@ -1,0 +1,18 @@
+.heading {
+    margin: auto;
+    width: 50%;
+    /*border: 3px solid green;*/
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(32, 23, 64);
+    color: white;
+  }
+
+.btn{
+    background-color: rgb(48, 224, 75);
+}
+
+.vertical-center{
+    text-align: center;
+    padding-top: 10px;
+}
